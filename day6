@@ -1,0 +1,42 @@
+float_value = 2e1
+print(float_value)
+isinstance(float_value, float)
+id(float_value)
+
+
+
+complex_value = 2+10j
+print(complex_value)
+print(type(complex_value))
+#using class methods and attributes
+print(complex_value.real)
+print(complex_value.imag)
+#using dir fxn
+print(dir(complex_value))
+
+print(complex(1,2))
+print(complex(2))
+print(complex("2+3j"))
+print(complex(0))
+
+
+#check boolean type
+print(bool(0))
+print(bool(-12))
+print(bool("hello"))
+print(bool(""))
+
+#condition if
+a = float(input("number1: "))
+b = float(input("number2: "))
+if a>b: 
+    print("a>b a is greater than b")
+elif a==b: 
+    print("a>b a is greater than b")
+else: 
+    print("a>b a is greater than b")
+
+print("Namaste")
+
+
+
